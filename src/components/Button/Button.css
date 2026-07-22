@@ -1,20 +1,30 @@
-.button {
-    width: 220px;
-    height: 60px;
+.custom-button {
+  width: 200px;
+  height: 45px;
 
-    border: none;
-    border-radius: 15px;
+  border-radius: 30px;
+  border: 2px solid #000;
 
-    background: white;
+  background-color: #eeeeee;
 
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 1rem;
+  font-weight: 600;
 
-    cursor: pointer;
+  cursor: pointer;
 
-    transition: 0.2s;
+  transition: all 0.3s ease;
 }
 
-.button:hover {
-    transform: scale(1.03);
+.custom-button:hover {
+  background-color: #d8d8d8;
+}
+
+.custom-button.primary {
+  background-color: #eeeeee;
+}
+
+.custom-button.secondary {
+  background-color: #980000;
+  color: white;
+  border: none;
 }

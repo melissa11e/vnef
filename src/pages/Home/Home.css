@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #980000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+}
+
+.notification {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.home-card {
+  width: 90%;
+  max-width: 1350px;
+  height: 80vh;
+
+  background-color: #f5dcdc;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 40px;
+}
+
+.home-content {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side {
+    width: 35%;
+    min-width: 600px;
+}
+
+.left-side h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.left-side h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right-side {
+  width: 60%;
+  height: 100%;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.import-button {
+  position: absolute;
+  top: 0;
+  right: 20px;
+
+  background-color: #980000;
+  color: white;
+
+  border: none;
+  border-radius: 25px;
+
+  padding: 12px 32px;
+
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero-image {
+  width: 90%;
+  max-width: 650px;
+
+  object-fit: contain;
+}

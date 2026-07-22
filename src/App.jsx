@@ -1,5 +1,3 @@
-// http://localhost:5173/
-
 import Home from "./pages/Home/Home";
 
 function App() {

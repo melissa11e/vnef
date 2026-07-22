@@ -1,12 +1,12 @@
 import "./Button.css";
 
-function Button({ text, onClick, className = "" }) {
+function Button({ texto, onClick, tipo = "primary" }) {
   return (
     <button
-      className={`button ${className}`}
+      className={`custom-button ${tipo}`}
       onClick={onClick}
     >
-      {text}
+      {texto}
     </button>
   );
 }
