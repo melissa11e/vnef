@@ -1,8 +1,10 @@
 import "./Home.css";
 import envelope from "../../assets/images/envelope.png";
 import Button from "../../components/Button/Button";
+import { Navigate, useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <div className="home">
       <div className="notification">
@@ -17,7 +19,11 @@ function Home() {
             <h2>O que deseja fazer?</h2>
 
             <div className="buttons-container">
-              <Button texto="Registrar" />
+              <Button 
+                texto="Registrar"
+                onClick={() => navigate("/registrar")}
+              />
+
               <Button texto="Consultar" />
               <Button texto="Retirar" />
               <Button texto="Postar" />
