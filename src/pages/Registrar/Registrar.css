@@ -17,32 +17,6 @@
   font-size: 3rem;
 }
 
-.btn-voltar {
-  position: absolute;
-  left: 20px;
-
-  width: 45px;
-  height: 45px;
-
-  border: none;
-  border-radius: 50%;
-
-  background: white;
-  color: #740000;
-
-  font-size: 1.8rem;
-  font-weight: bold;
-
-  cursor: pointer;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn-voltar:hover {
-  background: #f0f0f0;
-}
 
 .registrar-content {
   display: flex;
@@ -230,3 +204,28 @@
   cursor: pointer;
 }
 
+.btn-voltar {
+  position: absolute;
+  left: 20px;
+
+  width: 45px;
+  height: 45px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: white;
+  color: #740000;
+
+  font-size: 1.2rem;
+
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-voltar:hover {
+  background: #f0f0f0;
+}
